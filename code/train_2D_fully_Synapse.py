@@ -145,7 +145,7 @@ def patients_to_slices(dataset, patiens_num):
     if "ACDC" in dataset:
         ref_dict = {"1":13, "3": 68, "7": 136,
                     "14": 256, "21": 396, "28": 512, "35": 664, "140": 1312}
-    elif "Synapse":
+    elif "Synapse" in dataset:
         ref_dict = {"2": 256, "4": 522, "5":653, "7":867,
                     "11": 1318, "14": 1804, "18": 2211}
     else:
