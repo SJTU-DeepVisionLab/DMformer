@@ -23,12 +23,12 @@ git clone https://github.com/SJTU-DeepVisionLab/DMformer.git
 3. Train the model
 ```
 cd code
-python train_XXXXX_2D.py or bash train_acdc_XXXXX.sh
+python train_2D_fully_XXXXX.py
 ```
 
 4. Test the model
 ```
-python test_XXXXX.py
+python test_2D_fully_XXXXX.py
 ```
 ## Acknowledgement
-* Part of the code is adapted from open-source codebase and original implementations of algorithms, we thank these author for their fantastic and efficient codebase, such as, [UA-MT](https://github.com/yulequan/UA-MT), [Attention-Gated-Networks](https://github.com/ozan-oktay/Attention-Gated-Networks) and [segmentatic_segmentation.pytorch](https://github.com/qubvel/segmentation_models.pytorch) . 
+* Part of the code is adapted from open-source codebase and original implementations of algorithms, we thank these author for their fantastic and efficient codebase, such as, [UA-MT](https://github.com/yulequan/UA-MT), [SwinUNet](https://github.com/HuCaoFighting/Swin-Unet) and [segmentatic_segmentation.pytorch](https://github.com/qubvel/segmentation_models.pytorch). 
